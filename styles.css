@@ -1,0 +1,25 @@
+div.brd-followups h2.section {
+	background: #e0e0e0;
+	padding: 5px;
+	-moz-border-radius: 6px; /* FF1+ */
+	-webkit-border-radius: 6px; /* Saf3+, Chrome */
+	border-radius: 6px; /* Opera 10.5, IE 9 */
+	background: #d3d3d3 url(/images/glass-30.png) repeat-x 0 50%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: none;
+}
+div.brd-followups h2.section:hover {
+	color: #fff;
+	background: #ea4c88 url(/images/glass-light.png) repeat-x 0 50%;
+	cursor: pointer;
+}
+ol.brd-followups {
+	border-bottom: 2px solid #aaa;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+ol.brd-followups.last {
+	border-bottom: none;
+}
